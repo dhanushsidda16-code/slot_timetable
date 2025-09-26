@@ -25,114 +25,36 @@ Execute the program using runserver command.
 
 ## PROGRAM
 ```
-<html>
-<head>
-<title>Slot Timetable</title>
-</head>
 <body>
-<center>
-<img src="/static/logo.png" height="100" width="500">
-</center>
-<br>
-<table align="center" width="500" cellspacing="3" cellpadding="2" border="2" bgcolor="yellow">
-<caption><b>SLOT TIME TABLE - RENICK RAJESH (24900741)</b></caption>
-<tr align="center">
-<th bgcolor="cyan">Day/Time</th>
-<th bgcolor="cyan">Monday</th>
-<th bgcolor="cyan">Tuesday</th>
-<th bgcolor="cyan">Wednesday</th>
-<th bgcolor="cyan">Thursday</th>
-<th bgcolor="cyan">Friday</th>
-<th bgcolor="cyan">Saturday</th>
-</tr>
-<tr align="center">
-<th bgcolor="pink">8-10</th>
-<td>FREE SLOT</td>
-<td>FREE SLOT</td>
-<td>Career development skills</td>
-<td>FREE SLOT</td>
-<td>FREE SLOT</td>
-<td>FREE SLOT</td>
-</tr>
-<tr align="center">
-<th bgcolor="pink">10-12</th>
-<td>C Programming</td>
-<td>Computer Networks</td>
-<td>Computer Networks</td>
-<td>Web Development</td>
-<td>FREE SLOT</td>
-<td>C Programming</td>
-</tr>
-<tr>
-<th bgcolor="pink">12-1</th>
-<td colspan="6" align="center">L U N C H    B R E A K </td>
-</tr>
-<tr align="center">
-<th bgcolor="pink">1-3</th>
-<td>B.EEE</td>
-<td>Web Development</td>
-<td>Mentor Meet</td>
-<td>Operating Systems</td>
-<td>Operating Systems</td>
-<td>FREE SLOT</td>
-</tr>
-<tr align="center">
-<th bgcolor="pink">3-5</th>
-<td>EMPD</td>
-<td>FREE SLOT</td>
-<td>B.EEE</td>
-<td>Probability and queing models</td>
-<td>EMPD</td>
-<td>Probability and queing models</td>
-</tr>
-</table>
-<br>
-<table align="center" cellspacing="2" cellpadding="2" border="2">
-<tr align="center">
-<th>S. No.</th>
-<th>Subject Code</th>
-<th>Subject Name</th>
-</tr>
-<tr>
-<td align="center">1.</td>
-<td align="center"><b><font color = red>19AI414</font></b></td>
-<td><b><font color = red>Fundamentals of Web Application Development (FWAD)</font></b></td>
-</tr>
-<tr>
-<td align="center">2.</td>
-<td align="center">19CS302</td>
-<td>C Programming</td>
-</tr>
-<tr>
-<td align="center">3.</td>
-<td align="center">19CS405</td>
-<td>Operating System(OS)</td>
-</tr>
-<tr>
-<td align="center">4.</td>
-<td align="center">19EE305</td>
-<td>Basic Electrical, Electronics and Measurement Engineering</td>
-</tr>
-<tr>
-<td align="center">5.</td>
-<td align="center">19CS406</td>
-<td>Compter Networks</td>
-</tr>
-<tr>
-<td align="center">6.</td>
-<td align="center">19MA222</td>
-<td>Probability and Queueing Models(PQM)</td>
-</tr>
-<tr>
-<td align="center">7.</td>
-<td align="center">19AI303</td>
-<td>Engineering Mechanics and Product Development</td>
-</tr>
-</table>
-</body>
+        <center><img src="logo.png" height="100px" width="650px"></center>
+        <h3 align="center"> SLOT TIME-TABLE : NIRUDHI (25018753)</h3>
+        <table border="1px" align="center" bgcolor="skyblue">
+            <tr bgcolor="yellow"><th>DAY/TIME</th><th>MONDAY</th><th>TUESDAY</th><th>WEDNESDAY</th><th>THURSDAY</th><th>FRIDAY</th><th>SATURDAY</th></tr>
+            <tr><td align="center" bgcolor="yellow">8-10</td><td align="center">WEB</td><td align="center">-</td><td align="center">-</td><td align="center">DE</td><td align="center">-</td><td align="center">-</td></tr>
+            <tr><td align="center" bgcolor="yellow">10-12</td><td align="center">AI</td><td align="center">SE</td><td align="center">WEB</td><td align="center">SE</td><td align="center">-</td><td align="center">ML</td></tr>
+            <tr><td align="center" bgcolor="yellow">12-1</td><td align="center" colspan="6">LUNCH BREAK</td>
+            <tr><td align="center" bgcolor="yellow">1-3</td><td align="center">CA</td><td align="center">PHY</td><td align="center">MENTOR</td><td align="center">C</td><td align="center">C</td><td align="center">-</td></tr>
+            <tr><td align="center" bgcolor="yellow">3-5</td><td align="center">-</td><td align="center">-</td><td align="center">PHY</td><td align="center">-</td><td align="center">WEB</td><td align="center">-</td></tr>
+       </table>
+       <br>
+       <hr>
+       <br>
+       <table border="1px" align="center">
+        <tr><th>S.No</th><th>SUB CODE</th><th>SUBJECT NAME</th></tr>
+        <tr><td align="center">01.</td><td align="center">19AI401</td><td align="center">FUNDAMENTAL OF C PROGRAMMING (C)</td></tr>
+        <tr><td align="center">02.</td><td align="center">19AI410</td><td align="center">INTRODUCTION TO MACHINE LEARNING (ML)</td></tr>
+        <tr><td align="center">03.</td><td align="center">19AI414</td><td align="center"> FUNDAMENTALS OF WEB APPLICATION DEVELOPMENT (WEB) </td></tr>
+        <tr><td align="center">04.</td><td align="center">19CY205</td><td align="center">PRINCIPLE OF CHEMISTRY IN ENGINEERING (CHE)</td></tr>
+        <tr><td align="center">05.</td><td align="center">19CS408</td><td align="center">SOFTWARE ENGINEERING (SE)</td></tr>
+        <tr><td align="center">06.</td><td align="center">19EE404</td><td align="center">DIGITAL ELECTRONICS (DE)</td></tr>
+        <tr><td align="center">07.</td><td align="center">19PH814</td><td align="center">PHYSICS FOR QUANTUM COMPUTING (PHY)</td></tr>
+
+        </table>
+    </body>
 </html>
 ```
 ## OUTPUT
-![Output](timetable.png.png)
+![Output](png)<img width="1920" height="1200" alt="Screenshot (45)" src="https://github.com/user-attachments/assets/3fa53f7d-2cea-4965-80df-c4ee4e70cffb" />
+
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
